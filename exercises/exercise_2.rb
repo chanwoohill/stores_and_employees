@@ -5,7 +5,7 @@ puts "Exercise 2"
 puts "----------"
 
 @store1 = Store.find(1)
-@store = Store.find(2)
+@store2 = Store.find(2)
 @store1.name = 'Vancovuer'
 @store1.save 
 
